@@ -18,7 +18,7 @@ button[0].addEventListener(('click'), () =>
     const childDivs = document.createElement('div');
     if(counter % 10 === 0)
     {
-        childDivs.classList.add('weiss');
+        childDivs.classList.add('rechteck', 'weiss');
     }
     else
     {
